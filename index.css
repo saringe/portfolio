@@ -1,0 +1,53 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color : #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+nav ul li {
+    flex-basis: 100px;
+}
+
+/* Images on Skills */
+
+.skill_img {
+    width: 200px;
+}
+
+.skill-list{
+    text-align: center;
+}
