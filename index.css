@@ -1,0 +1,192 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7em;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn {
+	background-color:#f9f9ff;
+	border-radius: 2rem;
+	border:1px solid #f9f9ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.25rem;
+	padding:0.25rem 0.5rem;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #f9f9ff;
+    width: 20%;
+}
+.btn:hover {
+    background-color:#fff;
+}
+
+.active {
+    color: #e45447 !important;
+}
+
+/* Navbar */
+
+#navbar {
+    background: #fff;
+    color: #333;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 997;
+    height: 15vh;
+
+}
+   
+
+#navbar a{
+    color : #333;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: color .75s;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 1rem;
+    
+  }
+
+nav ul li {
+    flex-basis: 100px;
+}
+
+#navbar a:hover {
+    color: #e45447;
+}
+
+/* Banner area */ 
+.home-banner-area{
+    background: #fff;
+    height: 100vh;
+    padding-top: 20rem;
+    text-align: center;
+    
+}
+ /* About Me Area */
+#aboutme {
+    background:#fff;
+    height: 100vh;
+    padding-top: 15rem;
+    
+}
+
+#aboutme p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/* Project Area */
+#projects {
+    background-color:#f9f9ff ;
+    height: 100vh;
+    padding-top: 10rem;
+    display: flex;
+}
+
+.project_list {
+    width: 100vw;
+    
+}
+
+.project-display {
+    margin: 2rem 1rem 0 1rem;
+}
+
+.project_img {
+    width: 25vw;
+    height: 30vh;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+}
+
+/* Skills */
+
+#skills {
+    background-color:#f9f9ff ;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+/* Images on Skills */
+
+.skill_img {
+    width: 200px;
+}
+
+.skill-list{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+/* Contact Area */
+#contact-area {
+    padding-top:4rem ;
+    background-color:#abb5bf ;
+    height: 45vh;
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    height: 30vh;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding-top: 3rem;
+
+}
+.footer-social a{
+    margin: 30px;
+    color: #fff;
+
+}
+
+.footer-social h4 {
+    padding-bottom: 1.5rem;
+}
+
