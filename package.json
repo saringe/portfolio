@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal website portfolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Cliff Saringe",
+  "license": "ISC",
+  "homepage": "https://cliffsaringe.github.io/cliffsaringe.github.io",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
